@@ -1,29 +1,27 @@
-package util;
+//package util;
+//
+////input is similar to Scanner - allows us to create a tool with less code - input validation
+//
+//public class Input {
+//
+//    private Scanner sc;
+//
+//    public Input() {
+//        this.sc = new Sanner(System.in);
+//    }
 
-//input is similar to Scanner - allows us to create a tool with less code - input validation
+//    public String getString() {
+//        return sc.nextLine()
+//    }
 
-public class Input {
-
-    private Scanner sc;
-
-    public Input() {
-        this.sc = new Sanner(System.in);
-    }
-
-    public String getString() {
-        return sc.nextLine()
-    }
-
-    public static void main(String[] args) {
-        Input in = new Input();
-        System.out.print("Will you continue? ");
-
-        System.out.println("Please enter your favorite word");
-        String favWord = in.getString();
-
+//    public static void main(String[] args) {
+//        Input in = new Input();
+//        System.out.print("Will you continue? ");
+//
+//        System.out.println("Please enter your favorite word");
+//        String favWord = in.getString();
 //        boolean yesNo = in.yesNo();
 //        System.out.println(yesNo);
-
 //        System.out.println("Please enter a whole number");
 //        int num = in.getInt();
 //        System.out.println("You entered: " + num);
@@ -33,8 +31,6 @@ public class Input {
 //        System.out.println("You entered " + numInRange);
 //
 //        System.out.println("Please enter a number");
-
-
-
-    }
-}
+//
+//    }
+//}
